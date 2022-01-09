@@ -9,35 +9,35 @@ website: http://www.mrlukey.com
 commands:
   fly:
     description: Allows you to fly!
-    vanish:
-      description: Allows you to turn invisible!
-      aliases: [v]
-    invincible:
-      description: Allows you to not take any damage!
-      aliases: [nodmg]
-    die:
-      description: Kills you or a target!
-      aliases: [k]
-    heal:
-      description: Heals you or target!
-    feed:
-      description: Feeds you or target!
-    nick:
-      description: Change your name!
-    gmode:
-      description: Old numbers for gamemode changes!
-      aliases: [gm]
-    compasstarget:
-      description: Sets the compass target!
-      aliases: [ct]
-    setspawn:
-      description: Sets your spawn point to your location.
-      aliases: [sp]
-    day:
-      description: Sets the time to day!
-    night:
-      description: Sets the time to night!
-    spawn:
-      description: Go to spawn!
-    world:
-      description: TP to different worlds!
+  vanish:
+    description: Allows you to turn invisible!
+    aliases: [v]
+  invincible:
+    description: Allows you to not take any damage!
+    aliases: [nodmg]
+  kill:
+    description: Kills you or a target!
+    aliases: [k]
+  heal:
+    description: Heals you or target!
+  feed:
+    description: Feeds you or target!
+  nick:
+    description: Change your name!
+  gmode:
+    description: Old numbers for gamemode changes!
+    aliases: [gm]
+  compasstarget:
+    description: Sets the compass target!
+    aliases: [ct]
+  setspawn:
+    description: Sets your spawn point to your location.
+    aliases: [sp]
+  day:
+    description: Sets the time to day!
+  night:
+    description: Sets the time to night!
+  spawn:
+    description: Go to spawn!
+  world:
+    description: TP to different worlds!

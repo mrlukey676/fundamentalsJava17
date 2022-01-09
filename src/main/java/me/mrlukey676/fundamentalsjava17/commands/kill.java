@@ -7,17 +7,17 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class die implements CommandExecutor {
+public class kill implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         if(sender instanceof Player){
             Player player = (Player) sender;
-            if(player.hasPermission("fundamentals.die")){
+            if(player.hasPermission("fundamentals.kill")){
                 if(args.length == 0){
                     player.setHealth(0);
                     player.sendMessage(ChatColor.AQUA + "You have killed yourself!");
-                    player.sendMessage(ChatColor.ITALIC + "Note - To kill other players, do '/die <PLAYERNAME>'");
+                    player.sendMessage(ChatColor.ITALIC + "Note - To kill other players, do '/kill <PLAYERNAME>'");
                 }else{
                     Player target = Bukkit.getPlayerExact(args[0]);
                     if(target instanceof Player){

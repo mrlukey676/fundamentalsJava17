@@ -6,7 +6,7 @@
 
     <groupId>me.mrlukey676</groupId>
     <artifactId>fundamentalsJava17</artifactId>
-    <version>J17.1</version>
+    <version>J17.2</version>
     <packaging>jar</packaging>
 
     <name>FundamentalsJava17</name>
